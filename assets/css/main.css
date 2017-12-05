@@ -1551,7 +1551,7 @@
 /* Basic */
 
 	body {
-		background: #fff;
+		background: #000;
 	}
 
 	body, input, select, textarea {
@@ -1574,7 +1574,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: #888 !important;
 		}
 
 	strong, b {
@@ -1700,7 +1700,7 @@
 	}
 
 	header p {
-		color: #aaa;
+		color: #000;
 		position: relative;
 		margin: 0 0 1.6875em 0;
 	}
@@ -1726,7 +1726,7 @@
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		color: #888;
 		font-size: 3.5em;
 	}
 
@@ -1767,7 +1767,7 @@
 		appearance: none;
 		border-radius: 5px;
 		border: none;
-		border: solid 2px #e4e4e4;
+		border: solid 2px #888;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -1789,7 +1789,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4acaa8;
+			border-color: #000;
 		}
 
 	.select-wrapper {
@@ -1808,7 +1808,7 @@
 		}
 
 		.select-wrapper:before {
-			color: #e4e4e4;
+			color: #888;
 			content: '\f078';
 			display: block;
 			height: 2.75em;
@@ -1891,15 +1891,15 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #989898;
-			border-color: #989898;
+			background: #888;
+			border-color: #888;
 			color: #ffffff;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4acaa8;
+			border-color: #000;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -1944,7 +1944,7 @@
 
 	.box {
 		border-radius: 5px;
-		border: solid 2px #e4e4e4;
+		border: solid 2px #888;
 		margin-bottom: 2.25em;
 		padding: 1.5em;
 	}
@@ -2058,7 +2058,7 @@
 		}
 
 			ul.alt li {
-				border-top: solid 2px #f4f4f4;
+				border-top: solid 2px #888;
 				padding: 0.5em 0;
 			}
 
@@ -2092,7 +2092,7 @@
 				}
 
 				ul.feature-icons li:before {
-					background: #4acaa8;
+					background: #000;
 					border-radius: 100%;
 					color: #ffffff;
 					display: block;
@@ -2208,13 +2208,13 @@
 	}
 
 		table tbody tr {
-			border: solid 2px #f4f4f4;
+			border: solid 2px #888;
 			border-left: 0;
 			border-right: 0;
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #fafafa;
+				background-color: #888;
 			}
 
 		table td {
@@ -2230,11 +2230,11 @@
 		}
 
 		table thead {
-			border-bottom: solid 4px #e4e4e4;
+			border-bottom: solid 4px #888;
 		}
 
 		table tfoot {
-			border-top: solid 4px #e4e4e4;
+			border-top: solid 4px #888;
 		}
 
 		table.alt {
@@ -2242,7 +2242,7 @@
 		}
 
 			table.alt tbody tr td {
-				border: solid 2px #e4e4e4;
+				border: solid 2px #888;
 				border-left-width: 0;
 				border-top-width: 0;
 			}
@@ -2379,7 +2379,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #4acaa8;
+			background-color: #000;
 			color: #ffffff !important;
 		}
 
@@ -2414,7 +2414,7 @@
 /* Features */
 
 	.features article {
-		border-top: solid 3px #f4f4f4;
+		border-top: solid 3px #888;
 		margin-bottom: 2.25em;
 		padding-top: 2.25em;
 	}
@@ -2461,8 +2461,8 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #4acaa8;
-		color: #d1f1e9;
+		background: #000;
+		color: #888;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -2481,11 +2481,11 @@
 			}
 
 		#header header p {
-			color: #b6e9dc;
+			color: #888;
 		}
 
 		#header a {
-			color: #d1f1e9;
+			color: #888;
 		}
 
 			#header a:hover {
@@ -2512,7 +2512,7 @@
 			}
 
 			#header > header p {
-				color: #d1f1e9;
+				color: #888;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2533,7 +2533,7 @@
 			}
 
 				#header > footer .icons li a {
-					color: #b6e9dc;
+					color: #888;
 				}
 
 		#header > nav {
@@ -2550,7 +2550,7 @@
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb0;
+					border-top: solid 2px #888;
 					display: block;
 					padding: 0;
 				}
@@ -2569,7 +2569,7 @@
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #4acaa8 !important;
+							color: #000 !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -2579,14 +2579,14 @@
 /* Wrapper */
 
 	#wrapper {
-		background: #fff;
+		background: #000;
 		padding-right: 23em;
 	}
 
 /* Main */
 
 	#main > section {
-		border-top: solid 6px #f4f4f4;
+		border-top: solid 6px #888;
 	}
 
 		#main > section > .container {
@@ -2599,8 +2599,8 @@
 
 /* One */
 
-	#one:before {
-		background-image: url("../../images/banner.jpg");
+	#sobre:before {
+		background-image: url("../../images/av1.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -2613,9 +2613,9 @@
 /* Footer */
 
 	#footer {
-		background: #fafafa;
+		background: #000;
 		border-top: 0;
-		color: #c0c0c0;
+		color: #888;
 		overflow: hidden;
 		padding: 4em 0 2em 0;
 	}
@@ -2848,7 +2848,7 @@
 					}
 
 					#titleBar .toggle:before {
-						background: #4acaa8;
+						background: #000;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
